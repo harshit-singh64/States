@@ -1,0 +1,576 @@
+//Information of states of INDIA. 
+
+#include <iostream.h> 
+#include <conio.h> //For clrscr( ) ; 
+int main( ) 
+{ 
+int dow ; 
+clrscr( ) ; 
+cout << "\t" << " Note - India is a secular country. " << "\n" ; 
+cout << "\t\t" << "India is the only country" ; 
+cout << "where so many religion resides." << "\n"; 
+cout << "\n\n" << "\t\t" << " STATES & UNION TERRITORIES OF INDIA" << "\n" ; 
+cout << "\n" << "If you want to increase your knowledge about " ; 
+cout << "INDIAN STATES click 1," << "\n\n" ; 
+cout << "If you want to know about the UNION TERRITORIES OF" ; 
+cout << " INDIA click 2" ; 
+cout << "\n\n" << "& If you want to know more, click 3 & 4 " << "\n" ; 
+cout << "\n\n\n" << "1 - STATES" << "\n" ; 
+cout << "\n" << "2 - UNION TERRITORIES" << "\n" ; 
+cout << "\n" << "3 - SPECIAL CATEGORY STATUS" <<"\n" ; 
+cout << "\n" << "4 - Extra Information On INDIA"<< "\n\n" ; 
+cin >> dow ; 
+switch(dow) 
+{ 
+
+case 1 : cout << "\n" << "1. JAMMU & KASHMIR" ; 
+cout << "\t\t\t" << "2. HIMACHAL PRADESH" << "\n" ; 
+cout << "\n" << "3. PUNJAB" ; 
+cout << "\t\t\t\t" << "4. HARAYANA" << "\n" ; 
+cout << "\n" << "5. UTTARANCHAL/UTTARAKHAND" ; 
+cout << "\t\t" << "6. UTTER PRADESH" << "\n" ; 
+cout << "\n" << "7. BIHAR" ; 
+cout << "\t\t\t\t" << "8. JHARKHAND" << "\n" ; 
+cout << "\n" << "9. SIKKIM" ; 
+cout << "\t\t\t\t" << "10. ASSAM/ASOM" << "\n" ; 
+cout << "\n" << "11. NAGALAND" ; 
+cout << "\t\t\t\t" << "12. MANIPUR" << "\n" ; 
+cout << "\n" << "13. MEGHALAYA" ; 
+cout << "\t\t\t\t" << "14. TRIPURA" << "\n" ; 
+cout << "\n" << "15. WEST BENGAL" ; 
+cout << "\t\t\t\t" << "16. ORISSA" << "\n"; 
+cout << "\n" << "17. MADHYA PRADESH" ; 
+cout << "\t\t\t" << "18. CHHATTISGARH" << "\n" ; 
+cout << "\n" << "19. RAJASTHAN" ; 
+cout << "\t\t\t\t" << "20. GUJRAT" << "\n"; 
+cout << "\n" << "21. MAHARASTRA" ; 
+cout << "\t\t\t\t" << "22. ANDHRA PRADESH"<< "\n" ; 
+cout << "\n" << "23. KARNATAKA" ; 
+cout << "\t\t\t\t" << "24. TAMIL NADU" << "\n" ; 
+cout << "\n" << "25. KERALA" ; 
+cout << "\t\t\t\t" << "26. MIZORAM" << "\n" ; 
+cout << "\n" << "27. ARUNACHAL PRADESH" ;
+cout << "\t\t\t" << "28. GOA" << "\n\n" ; 
+
+cin >> dow ; 
+cout << "\n" ; 
+switch(dow) 
+{ 
+
+case 1 : cout << "\t\t\t\t" << " JAMMU & KASHMIR" << "\n\n" ; 
+cout << "\n" << " Capital" << "\t" <<" : Srinagar" ; 
+cout << "(Summer) ," << "\t" << " Jammu (Winter)" << "\n" ; 
+cout << "\n" << " Chief Minister : Shri Omar Abdullah\n" ; 
+cout << "\n" << " Language spoken" ; 
+cout << ": Kashmiri, Urdu, Laddakhi,Balti" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 55.52%" << "\n" ; 
+cout << "\n" << " Population  : 10,143,700" << "\n" ; 
+cout << "\n" << " Area  : 2,22,236 sq.km" << "\n" ; 
+cout << "\n" << " Sex Ratio  : 892" << "\n" ; 
+cout << "\n" << " Growth Rate  : 29.43%" << "\n" ; 
+cout << "\n" << " Districts  : 22" << "\n" ; 
+break ; 
+
+case 2 : cout << "\t\t\t\t" << "HIMACHAL PRADESH" << "\n\n" ; 
+cout << "\n" << " Capital" << "\t" << " : Shimla" << "\n"; 
+cout << "\n" << " Chief Minister : Prof. Prem Kumar" ; 
+cout << " Dhumal" << "\n" ; 
+cout << "\n" << " Language Spoken: Hindi & Pahari" << "\n"; 
+cout << "\n" << " Literacy Rate  : 76.50%" << "\n" ; 
+cout << "\n" << " Population  : 6,077,900 " << "\n" ; 
+cout << "\n" << " Area  : 55673 sq.km" << "\n" ; 
+cout << "\n" << " Sex Ratio  : 968" << "\n" ; 
+cout << "\n" << " Growth Rate  : 17.54%" << "\n" ; 
+cout << "\n" << " Districts  : 12" << "\n" ; 
+break ; 
+
+case 3 : cout << "\t\t\t\t" << "PUNJAB" << "\n\n" ; 
+cout << "\n" << " Capital  : Chandigarh" << "\n" ; 
+cout << "\n" << " Chief Minister : Shri Parkesh" ; 
+cout << " Singh Badal" << "\n" ; 
+cout << "\n" << " Language Spoken: Punjabi " << "\n" ; 
+cout << "\n" << " Literacy Rate  : 69.70%" << "\n" ; 
+cout << "\n" << " Population  : 24,385,999" << "\n" ; 
+cout << "\n" << " Area  : 50,362 sq.km" << "\n" ; 
+cout << "\n" << " Sex Ratio  : 876" << "\n" ; 
+cout << "\n" << " Growth Rate  : 20.10%" << "\n" ; 
+cout << "\n" << " Districts  : 20" << "\n" ; 
+break ; 
+
+case 4 : cout << "\t\t\t\t" << "HARAYANA" << "\n\n" ; 
+cout << "\n" << " Capital  : Chandigarh" << "\n" ; 
+cout << "\n" << " Chief Minister : Shri Bhupinder Singh" ; 
+cout << " Hooda" << "\n" ; 
+cout << "\n" << " Language Spoken: Hindi" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 67.91%" << "\n" ; 
+cout << "\n" << " Population  : 21,144,564" << "\n" ; 
+cout << "\n" << " Area  : 44,212 sq.km" << "\n" ; 
+cout << "\n" << " Sex Ratio  : 861" << "\n" ; 
+cout << "\n" << " Growth Rate  : 28.43%" << "\n" ; 
+cout << "\n" << " Districts  : 21" << "\n" ; 
+break ; 
+
+case 5 : cout << "\t\t\t\t" << "UTTARANCHAL /UTTRAKHAND" << "\n\n" ; 
+cout << "\n" << " Capital  : Dehradun" << "\n" ; 
+cout << "\n" << " Chief Minister : Maj. Gen. Bhuvan" ; 
+cout << " Chander Khanduri (Retd) \n" ; 
+cout << "\n" << " Language Spoken: Hindi," ; 
+cout << " Garhwali"<<"\n" ; 
+cout << "\n" << " Literacy Rate  : 71.62%" << "\n" ; 
+cout << "\n" << " Population  : 8,489,349" << "\n" ; 
+cout << "\n" << " Area  : 53,484 sq.km" << "\n" ; 
+cout << "\n" << " Sex Ratio  : 962" << "\n" ; 
+cout << "\n" << " Growth Rate  : 20.41%" << "\n" ; 
+cout << "\n" << " Districts  : 13" << "\n" ; 
+break ; 
+
+case 6 : cout << "\t\t\t\t" << "UTTER PRADESH" << "\n\n" ; 
+cout << "\n" << " Capital  : Lucknow" << "\n" ; 
+cout << "\n" << " Chief Minister : Kumari Mayawati" <<"\n"; 
+cout << "\n" << " Language Spoken: Hindi & Urdu" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 56.30%" << "\n" ; 
+cout << "\n" << " Population  : 166,197,921" << "\n" ; 
+cout << "\n" << " Area  : 2,38,566 sq.km" << "\n"; 
+cout << "\n" << " Sex Ratio  : 898" << "\n" ; 
+cout << "\n" << " Growth Rate  : 25.85%" << "\n" ; 
+cout << "\n" << " Districts  : 71" << "\n" ; 
+break ; 
+
+case 7 : cout << "\t\t\t\t" << "BIHAR" "\n\n"; 
+cout << "\n" << " Capital  : Patna" << "\n" ; 
+cout << "\n" << " Chief Minister : Sri Nitish Kumar"<<"\n"; 
+cout << "\n" << " Language Spoken: Bihari, Hindi" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 47.00%" << "\n" ; 
+cout << "\n" << " Population  : 82,998,509" << "\n" ; 
+cout << "\n" << " Area  : 94,163 sq.km" << "\n" ; 
+cout << "\n" << " Sex Ratio  : 919" << "\n" ; 
+cout << "\n" << " Growth Rate  : 28.62%" << "\n" ; 
+cout << "\n" << " Districts  : 38" << "\n" ; 
+break ; 
+
+case 8 : cout << "\t\t\t\t" << "JHARKHAND" <<"\n\n" ; 
+cout << "\n" << " Capital  : Ranchi" << "\n" ; 
+cout << "\n" << " Chief Minister : Shri Arjun Munda"<<"\n"; 
+cout << "\n" << " Language Spoken: Hindi" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 53.60%" << "\n" ; 
+cout << "\n" << " Population  : 26,945,829" << "\n" ; 
+cout << "\n" << " Area  : 73,714 sq.km" << "\n" ; 
+cout << "\n" << " Sex Ratio  : 941" << "\n" ; 
+cout << "\n" << " Growth Rate  : 23.36%" << "\n" ; 
+cout << "\n" << " Districts  : 24" << "\n" ; 
+break ; 
+
+case 9 : cout << "\t\t\t\t" << "SIKKIM" << "\n\n" ; 
+cout << "\n" << " Capital  : Gangtok" << "\n" ; 
+cout << "\n" << " Chief Minister : Shri Pawan" ; 
+cout << " Chamling"<<"\n" ; 
+cout << "\n" << " Language Spoken: Nepali, Bhutia" << "\n"; 
+cout << "\n" << " Literacy Rate  : 68.81%" << "\n" ; 
+cout << "\n" << " Population  : 540,851" << "\n" ; 
+cout << "\n" << " Area  : 7,096 sq.km." << "\n" ; 
+cout << "\n" << " Sex Ratio  : 875" << "\n" ; 
+cout << "\n" << " Growth Rate  : 33.06%" << "\n" ; 
+cout << "\n" << " Districts  : 4" << "\n" ; 
+break ; 
+
+case 10 : cout << "\t\t\t\t" << "ASSAM / ASOM" << "\n\n" ; 
+cout << "\n" << " Capital  : Dispur" << "\n" ; 
+cout << "\n" << " Chief Minister : Shri Tarun Gogoi" << "\n" ; 
+cout << "\n" << " Language Spoken: Asomese" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 63.30%" << "\n" ; 
+cout << "\n" << " Population  : 26,655,528" << "\n" ; 
+cout << "\n" << " Area  : 78,438 sq.km." << "\n" ; 
+cout << "\n" << " Sex Ratio  : 935" << "\n" ; 
+cout << "\n" << " Growth Rate  : 18.92%" << "\n" ; 
+cout << "\n" << " Districts  : 27" << "\n" ; 
+break ; 
+
+case 11 : cout << "\t\t\t\t" << "NAGALAND" <<"\n\n" ; 
+cout << "\n" << " Capital  : Kohima" << "\n" ; 
+cout << "\n" << " Chief Minister : Shri Neiphiu Rio"<<"\n"; 
+cout << "\n" << " Language Spoken: Angami," ; 
+cout << " Ao, Chang" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 66.60%" << "\n" ; 
+cout << "\n" << " Population  : 1,990,036" << "\n" ; 
+cout << "\n" << " Area  : 16,579 sq.km." << "\n" ; 
+cout << "\n" << " Sex Ratio  : 900" << "\n" ; 
+cout << "\n" << " Growth Rate  : 64.53%" << "\n" ; 
+cout << "\n" << " Districts  : 11" << "\n" ; 
+break ; 
+
+case 12 : cout << "\t\t\t\t" << "MANIPUR" << "\n\n" ; 
+cout << "\n" << " Capital  : Imphal" << "\n" ; 
+cout << "\n" << " Chief Minister : Shri Okram Ibobi" ; 
+cout << " Singh" << "\n" ; 
+cout << "\n" << " Language Spoken: Manipuri" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 70.53%" << "\n" ; 
+cout << "\n" << " Population  : 2,293,896" << "\n" ; 
+cout << "\n" << " Area  : 22,327 sq.km." << "\n" ; 
+cout << "\n" << " Sex Ratio  : 978" << "\n" ; 
+cout << "\n" << " Growth Rate  : 24.86%" << "\n" ; 
+cout << "\n" << " Districts  : 9" << "\n" ; 
+break ; 
+
+case 13 : cout << "\t\t\t\t" << "MEGHALAYA" << "\n\n" ; 
+cout << "\n" << " Capital  : Shillong" << "\n" ; 
+cout << "\n" << " Chief Minister : Dr. Mukul Sangma"<<"\n"; 
+cout << "\n" << " Language Spoken: Khasi, English " <<"\n"; 
+cout << "\n" << " Literacy Rate  : 62.60%" << "\n" ; 
+cout << "\n" << " Population  : 2,318,822" << "\n" ; 
+cout << "\n" << " Area  : 22,429 sq.km." << "\n" ; 
+cout << "\n" << " Sex Ratio  : 972" << "\n" ; 
+cout << "\n" << " Growth Rate  : 30.65%" << "\n" ; 
+cout << "\n" << " Districts  : 97" << "\n" ; 
+break ; 
+
+case 14 : cout << "\t\t\t\t" << "TRIPURA" << "\n\n" ; 
+cout << "\n" << " Capital  : Agartala" << "\n" ; 
+cout << "\n" << " Chief Minister : Shri Manik" ; 
+cout << " Sarkar" << "\n" ; 
+cout << "\n" << " Language Spoken: Bengali &" ; 
+cout << " Kokborak" << "\n"; 
+cout << "\n" << " Literacy Rate  : 73.20%" << "\n" ; 
+cout << "\n" << " Population  : 31,99,203" << "\n" ; 
+cout << "\n" << " Area  : 10,491 sq.km." << "\n" ; 
+cout << "\n" << " Sex Ratio  : 948" << "\n" ; 
+cout << "\n" << " Growth Rate  : 16.03%" << "\n" ; 
+cout << "\n" << " Districts  : 4" << "\n" ; 
+break ; 
+
+
+case 15 : cout << "\t\t\t\t" << "WEST BENGAL"<< "\n\n" ; 
+cout << "\n" << " Capital  : Kolkata" << "\n" ; 
+cout << "\n" << " Chief Minister : Mamta Banerjee" << "\n"; 
+cout << "\n" << " Language Spoken: Bengali" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 68.64%" << "\n" ; 
+cout << "\n" << " Population  : 80,176,197" << "\n" ; 
+cout << "\n" << " Area  : 88,752 sq.km." << "\n" ; 
+cout << "\n" << " Sex Ratio  : 934" << "\n" ; 
+cout << "\n" << " Growth Rate  : 17.77%" << "\n" ; 
+cout << "\n" << " Districts  : 19" << "\n" ; 
+break ; 
+
+case 16 : cout << "\t\t\t\t" << "ORISSA" << "\n\n" ; 
+cout << "\n" << " Capital  : Bhubhaneshwar" << "\n" ; 
+cout << "\n" << " Chief Minister : Shri Naveen" ; 
+cout << " Patnaik " << "\n" ; 
+cout << "\n" << " Language Spoken: Oriya" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 63.10%" << "\n" ; 
+cout << "\n" << " Population  : 36,804,660" << "\n" ; 
+cout << "\n" << " Area  : 1,55,707 sq.km." <<"\n"; 
+cout << "\n" << " Sex Ratio  : 972" << "\n" ; 
+cout << "\n" << " Growth Rate  : 16.25%" << "\n" ; 
+cout << "\n" << " Districts  : 30" << "\n" ; 
+break ; 
+
+case 17 : cout << "\t\t\t\t" << "MADHYA PRADESH" << "\n\n" ; 
+cout << "\n" << " Capital  : Bhopal" << "\n" ; 
+cout << "\n" << " Chief Minister : Shri Shivraj Singh" ; 
+cout << " Chouhan" << "\n" ; 
+cout << "\n" << " Language Spoken: Hindi" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 63.74%" << "\n" ; 
+cout << "\n" << " Population  : 60,348,,023" << "\n" ; 
+cout << "\n" << " Area  : 3,08,252 sq.km." <<"\n"; 
+cout << "\n" << " Sex Ratio  : 919" << "\n" ; 
+cout << "\n" << " Growth Rate  : 24.26%" << "\n" ; 
+cout << "\n" << " Districts  : 50" << "\n" ; 
+break ; 
+
+case 18 : cout << "\t\t\t\t" << "CHHATTISGARH" << "\n\n" ; 
+cout << "\n" << " Capital  : Raipur" << "\n" ; 
+cout << "\n" << " Chief Minister : Dr. Raman Singh" <<"\n"; 
+cout << "\n" << " Language Spoken: Hindi" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 64.70%" << "\n" ; 
+cout << "\n" << " Population  : 2,833,803" << "\n" ; 
+cout << "\n" << " Area  : 1,35,191 sq.km." <<"\n"; 
+cout << "\n" << " Sex Ratio  : 989" << "\n" ; 
+cout << "\n" << " Growth Rate  : 18.27%" << "\n" ; 
+cout << "\n" << " Districts  : 18" << "\n" ; 
+break ; 
+
+case 19 : cout << "\t\t\t\t" << "RAJASTHAN" << "\n\n" ; 
+cout << "\n" << " Capital  : Jaipur" << "\n" ; 
+cout << "\n" << " Chief Minister : Shri Ashok" ; 
+cout << " Gehlot" << "\n" ; 
+cout << "\n" << " Language Spoken: Rajashani" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 60.41%" << "\n" ; 
+cout << "\n" << " Population  : 56,507,188" << "\n" ; 
+cout << "\n" << " Area  : 3,42,239 sq.km." <<"\n"; 
+cout << "\n" << " Sex Ratio  : 921" << "\n" ; 
+cout << "\n" << " Growth Rate  : 28.41%" << "\n" ; 
+cout << "\n" << " Districts  : 33" << "\n" ; 
+break ; 
+
+case 20 : cout << "\t\t\t\t" << "GUJRAT" << "\n\n" ; 
+cout << "\n" << " Capital  : Gandhinagar" << "\n" ; 
+cout << "\n" << " Chief Minister : Shri Narendra" ; 
+cout << " Modi" << "\n" ; 
+cout << "\n" << " Language Spoken: Gujrati" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 63,1069,10%" << "\n" ; 
+cout << "\n" << " Population  : 50,671,017" << "\n" ; 
+cout << "\n" << " Area  : 1,96,024 sq.km." <<"\n"; 
+cout << "\n" << " Sex Ratio  : 920" << "\n" ; 
+cout << "\n" << " Growth Rate  : 22.66%" << "\n" ; 
+cout << "\n" << " Districts  : 26" << "\n" ; 
+break ; 
+
+case 21 : cout << "\t\t\t\t" << "MAHARASTRA" << "\n\n" ; 
+cout << "\n" << " Capital  : Mumbai" << "\n" ; 
+cout << "\n" << " Chief Minister : Shri Prithviraj" ; 
+cout << " Chavan" << "\n" ; 
+cout << "\n" << " Language Spoken: Marathi" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 76.90%" << "\n" ; 
+cout << "\n" << " Population  : 96,878,627" << "\n" ; 
+cout << "\n" << " Area  : 3,07,713 sq.km." <<"\n"; 
+cout << "\n" << " Sex Ratio  : 922" << "\n" ; 
+cout << "\n" << " Growth Rate  : 22.73%" << "\n" ; 
+cout << "\n" << " Districts  : 35" << "\n" ; 
+break ; 
+
+case 22 : cout << "\t\t\t\t" << "ANDRA PRADESH" << "\n\n" ; 
+cout << "\n" << " Capital  : Hyderabad" << "\n" ; 
+cout << "\n" << " Chief Minister : Shri Nabam Tuki" <<"\n"; 
+cout << "\n" << " Language Spoken: Telegu & Urdu" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 60.50%" << "\n" ; 
+cout << "\n" << " Population  : 76,210,007" << "\n" ; 
+cout << "\n" << " Area  : 2,75,069 sq.km." <<"\n"; 
+cout << "\n" << " Sex Ratio  : 978" << "\n" ; 
+cout << "\n" << " Growth Rate  : 14.59%" << "\n" ; 
+cout << "\n" << " Districts  : 23" << "\n" ; 
+break ; 
+
+case 23 : cout << "\t\t\t\t" << "KARNATAKA" << "\n\n" ; 
+cout << "\n" << " Capital  : Bangaluru" << "\n" ; 
+cout << "\n" << " Chief Minister : Shri D V Sadananda" ; 
+cout << " Gowda" << "\n" ; 
+cout << "\n" << " Language Spoken: Kannada" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 66.60%" << "\n" ; 
+cout << "\n" << " Population  : 52,850,562" << "\n" ; 
+cout << "\n" << " Area  : 1,91,791 sq.km." <<"\n"; 
+cout << "\n" << " Sex Ratio  : 965" << "\n" ; 
+cout << "\n" << " Growth Rate  : 17.51%" << "\n" ; 
+cout << "\n" << " Districts  : 29" << "\n" ; 
+break ; 
+
+case 24 : cout << "\t\t\t\t" << "TAMIL NADU" << "\n\n" ; 
+cout << "\n" << " Capital  : Chenni" << "\n" ; 
+cout << "\n" << " Chief Minister : Selvi J." ; 
+cout << " Jayalalithaa " << "\n" ; 
+cout << "\n" << " Language Spoken: Tamil" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 73.50%" << "\n" ; 
+cout << "\n" << " Population  : 62,405,679" << "\n" ; 
+cout << "\n" << " Area  : 1,30,058 sq.km." <<"\n"; 
+cout << "\n" << " Sex Ratio  : 987" << "\n" ; 
+cout << "\n" << " Growth Rate  : 11.72%" << "\n" ; 
+cout << "\n" << " Districts  : 32" << "\n" ; 
+break ; 
+
+case 25 : cout << "\t\t\t\t" << "KERELA" << "\n\n" ; 
+cout << "\n" << " Capital  : Thriuvanan" ; 
+cout << "thpuram" << "\n" ; 
+cout << "\n" << " Chief Minister : Mr Ooman Chandy" <<"\n"; 
+cout << "\n" << " Language Spoken: Malayalam" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 90.92%" << "\n" ; 
+cout << "\n" << " Population  : 31,841,374" << "\n" ; 
+cout << "\n" << " Area  : 38,836 sq.km." << "\n" ; 
+cout << "\n" << " Sex Ratio  : 1058" << "\n" ; 
+cout << "\n" << " Growth Rate  : 9.43%" << "\n" ; 
+cout << "\n" << " Districts  : 14" << "\n" ; 
+break ; 
+
+case 26 : cout << "\t\t\t\t" << "MIZORAM" << "\n\n" ; 
+cout << "\n" << " Capital  : Aizawl" << "\n" ; 
+cout << "\n" << " Chief Minister : Shri Pu" ; 
+cout << " Lalthanhawla" << "\n" ; 
+cout << "\n" << " Language Spoken: Mizo & English" << "\n"; 
+cout << "\n" << " Literacy Rate  : 88.80%" << "\n" ; 
+cout << "\n" << " Population  : 888,573" << "\n" ; 
+cout << "\n" << " Area  : 21,081 sq.km." << "\n" ; 
+cout << "\n" << " Sex Ratio  : 935" << "\n" ; 
+cout << "\n" << " Growth Rate  : 28.82%" << "\n" ; 
+cout << "\n" << " Districts  : 8" << "\n" ; 
+break ; 
+
+case 27 : cout << "\t\t\t\t" << "ARUNACHAL PRADESH" << "\n\n" ; 
+cout << "\n" << " Capital  : Itanagar" << "\n" ; 
+cout << "\n" << " Chief Minister : Shri Nabam Tuki" <<"\n"; 
+cout << "\n" << " Language Spoken: Tribal dialects" <<"\n"; 
+cout << "\n" << " Literacy Rate  : 63.30%" << "\n" ; 
+cout << "\n" << " Population  : 26,655,528" << "\n" ; 
+cout << "\n" << " Area  : 78,438 sq.km." << "\n" ; 
+cout << "\n" << " Sex Ratio  : 935" << "\n" ; 
+cout << "\n" << " Growth Rate  : 18.92%" << "\n" ; 
+cout << "\n" << " Districts  : 16" << "\n" ; 
+break ; 
+
+case 28 : cout << "\t\t\t\t" << "GOA" << "\n\n" ; 
+cout << "\n" << " Capital  : Panaji" << "\n" ; 
+cout << "\n" << " Chief Minister : Shri Digambar" ; 
+cout << " Kamat"<< "\n"; 
+cout << "\n" << " Language Spoken: Marathi" ; 
+cout << " & Konkani" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 82.01%" << "\n" ; 
+cout << "\n" << " Population  : 1,347,668" << "\n" ; 
+cout << "\n" << " Area  : 3,702 sq.km." << "\n" ; 
+cout << "\n" << " Sex Ratio  : 961" << "\n" ; 
+cout << "\n" << " Growth Rate  : 15.21%" << "\n" ; 
+cout << "\n" << " Districts  : 2" << "\n" ; 
+break ; 
+
+default : cout << "\n" << "Sorry there is no city of this number !!!!!!" ; 
+break ; 
+} 
+
+break ; 
+case 2 : cout << "\n" << "1. DELHI" ; 
+cout << "\t\t\t\t" << "2. CHANDIGARH" << "\n" ; 
+cout << "\n" << "3. DAMAN & DIU" ; 
+cout << "\t\t\t\t" << "4. LAKSHADWEEP" << "\n" ; 
+cout << "\n" << "5. ANDAMAN & NICOBAR" ; 
+cout << "\t\t\t" << "6. PONDICHARRY" << "\n" ; 
+cout << "\n" << "7. DADAR & NAGAR HAWELI" << "\n" ; 
+cin >> dow ; 
+cout << "\n" ; 
+switch(dow) 
+{ 
+case 1 : cout << "\t\t\t\t" << "DELHI" << "\n\n" ; 
+cout << "\n" << " Capital  : Delhi" << "\n" ; 
+cout << "\n" << " Chief Minister : Smt. Shila" ; 
+cout << " Dikshit" << "\n" ; 
+cout << "\n" << " Language Spoken: Hindi, Urdu," ; 
+cout << " English" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 81.70%" << "\n" ; 
+cout << "\n" << " Population  : 13,850,507" << "\n" ; 
+cout << "\n" << " Area  : 1,483 sq.km." << "\n" ; 
+cout << "\n" << " Sex Ratio  : 821" << "\n" ; 
+cout << "\n" << " Growth Rate  : 47.02%" << "\n" ; 
+cout << "\n" << " Districts  : 9" << "\n" ; 
+break ; 
+
+case 2 : cout << "\t\t\t\t" << "CHANDIGARH" << "\n\n" ; 
+cout << "\n" << " Capital  : Chandigarh" << "\n" ; 
+cout << "\n" << " Administrator  : Shri Shivraj" ; 
+cout << " V. Patil"<< "\n"; 
+cout << "\n" << " Language Spoken: Hindi, Punjabi," ; 
+cout << " English" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 81.94%" << "\n" ; 
+cout << "\n" << " Population  : 900,635" << "\n" ; 
+cout << "\n" << " Area  : 114 sq.km." << "\n" ; 
+cout << "\n" << " Sex Ratio  : 777" << "\n" ; 
+cout << "\n" << " Growth Rate  : 40.28%" << "\n" ; 
+cout << "\n" << " Districts  : ------" << "\n" ; 
+break ; 
+
+case 3 : cout << "\t\t\t\t" << "DAMAN & DIU" << "\n\n" ; 
+cout << "\n" << " Capital  : Daman" << "\n" ; 
+cout << "\n" << " Administrator  : Shri. Satya" ; 
+cout << " Gopal, IAS"<< "\n"; 
+cout << "\n" << " Language Spoken: Gujrati" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 78.20%" << "\n" ; 
+cout << "\n" << " Population  : 15,204" << "\n" ; 
+cout << "\n" << " Area  : 112 sq.km." << "\n" ; 
+cout << "\n" << " Sex Ratio  : 710" << "\n" ; 
+cout << "\n" << " Growth Rate  : 55.73%" << "\n" ; 
+cout << "\n" << " Districts  : ------" << "\n" ; 
+break ; 
+
+case 4 : cout << "\t\t\t\t" << "LAKSHADWEEP" << "\n\n" ; 
+cout << "\n" << " Capital  : Kavarati" << "\n" ; 
+cout << "\n" << " Governor  : Shri J.K. Dadoo "<<"\n"; 
+cout << "\n" << " Language Spoken: Jeseri(Dweep Bhasa), " ; 
+cout << " & Mahal" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 86.70%" << "\n" ; 
+cout << "\n" << " Population  : 60,650" << "\n" ; 
+cout << "\n" << " Area  : 32 sq.km." << "\n" ; 
+cout << "\n" << " Sex Ratio  : 948" << "\n" ; 
+cout << "\n" << " Growth Rate  : 17.30%" << "\n" ; 
+cout << "\n" << " Districts  : ------" << "\n" ; 
+break ; 
+
+case 5 : cout << "\t\t\t\t" << " ANDAMAN & NICOBAR" << "\n\n" ; 
+cout << "\n" << " Capital  : Port Blair" << "\n" ; 
+cout << "\n" << " Governer  : Lt. Gen.(Retd)" ; 
+cout << "Bhopinder Singh"<< "\n"; 
+cout << "\n" << " Language Spoken: Hindi, Nicobarese," ; 
+cout << " Bengali, Tamil, Telegu" <<"\n" ; 
+cout << "\n" << " Literacy Rate  : 81.30%" << "\n" ; 
+cout << "\n" << " Population  : 356,152" << "\n" ; 
+cout << "\n" << " Area  : 8,249 sq.km." << "\n" ; 
+cout << "\n" << " Sex Ratio  : 846" << "\n" ; 
+cout << "\n" << " Growth Rate  : 26.94%" << "\n" ; 
+cout << "\n" << " Districts  : 3" << "\n" ; 
+break ; 
+
+case 6 : cout << "\t\t\t\t" << "PONDICHARRY" << "\n\n" ; 
+cout << "\n" << " Capital  : Pondicharry" << "\n" ; 
+cout << "\n" << " Governer  : shri Iqbal Singh"<<"\n"; 
+cout << "\n" << " Language Spoken: Tamil," ; 
+cout << " Telugu, Malayalam, English" << "\n" ; 
+cout << "\n" << " Literacy Rate  : 81.24%" << "\n" ; 
+cout << "\n" << " Population  : 974,345" << "\n" ; 
+cout << "\n" << " Area  : 492 sq.km." << "\n" ; 
+cout << "\n" << " Sex Ratio  : 1001" << "\n" ; 
+cout << "\n" << " Growth Rate  : 20.62%" << "\n" ; 
+cout << "\n" << " Districts  : 4" << "\n" ; 
+break ; 
+
+case 7 : cout << "\t\t\t\t" << " DADAR & NAGAR HAWELI" << "\n\n" ; 
+cout << "\n" << " Capital  : Shilvassa" << "\n" ; 
+cout << "\n" << " Governer  : Shri Satya Gopal"<<"\n"; 
+cout << "\n" << " Language Spoken: Hindi, Gujrati" << "\n"; 
+cout << "\n" << " Literacy Rate  : 57.63%" << "\n" ; 
+cout << "\n" << " Population  : 220,490" << "\n" ; 
+cout << "\n" << " Area  : 491 sq.km." << "\n" ; 
+cout << "\n" << " Sex Ratio  : 812" << "\n" ; 
+cout << "\n" << " Growth Rate  : 59.20%" << "\n" ; 
+cout << "\n" << " Districts  : ------" << "\n" ; 
+break ; 
+
+default : cout << "\n" << "Sorry there is no city of this number !!!!!!" ; 
+break ; 
+} 
+break ; 
+
+case 3 : cout << "\n" << " - This category is confered on those" ; 
+cout << " states which are" ; 
+cout << " economically" << "\n\n" << " backward and geographically" ; 
+cout << " disadvantageous." << "\n\n" ; 
+cout << "\n" << " - Till date, 11 States have been given" ; 
+cout << " this status. They are :" << "\n"; 
+cout << "\n" << " 1- Asom  2- Nagaland" << "\n" ; 
+cout << "\n" << " 3- Jammu & Kashmir  4- Himachal" ; 
+cout << " Pradesh" <<"\n"; 
+cout << "\n" << " 5- Manipur  6- Meghalaya" << "\n" ; 
+cout << "\n" << " 7- Tripura  8- Sikkim" << "\n" ; 
+cout << "\n" << " 9- Arunachal Pradesh 10- Mizoram" << "\n" ; 
+cout << "\n" << " 11- Uttrakhand" << "\n" ; 
+break ; 
+
+case 4 : cout << "\n" << "1. Jammu & Kashmir is theonly state in" ; 
+cout << " India which have seperate Constitution." ; 
+cout << "\n\n" << "2. Visakhapatnam is themajor port" ; 
+cout << " in Andra Pradesh." << "\n"; 
+cout << "\n"<< "3. Assam contributes about15% of the" ; 
+cout << " worlds entire tea production." << "\n" ; 
+cout << "\n" << "4. After the seperation of Jharkhand" ; 
+cout << " from Bihar, Bihar has become" <<"\n" ; 
+cout << " a mineral-less state." << "\n"; 
+cout << "\n" << "5. Chhattisgarh came intoexistence" ; 
+cout << " as 26th State in 2000." << "\n" ; 
+cout << "\n" << "6. Gujrat is among the leading" ; 
+cout << " industrialised States in the country." << "\n" ; 
+cout << "\n" << "7. Onam is the most famous" ; 
+cout << " festival in Kerela." << "\n" ; 
+cout << "\n" << "8. World's longest Dam," ; 
+cout << " Hirakund dam is located in Orissa." << "\n" ; 
+cout << "\n" << "9. Lakshsdweep is the group" ; 
+cout << " of 25 Coral islands." << "\n" ; 
+cout << "\n" << "10. Madhya Pradesh & Andaman and Nicobar " ; 
+cout << "Islands have the maximum" << "\n"; 
+cout << " number of National Parks." <<"\n\n" ; 
+break; 
+default : cout << "\n" << "Sorry no category of this!!!!!!" << "\n" ; 
+break ; 
+} 
+getch ( ) ; 
+return 0 ; }
