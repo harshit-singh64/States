@@ -1,5 +1,3 @@
-//Information of states of INDIA. 
-
 #include <iostream.h> 
 #include <conio.h> //For clrscr( ) ; 
 int main( ) 
